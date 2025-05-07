@@ -2,10 +2,10 @@
   "name": "api",
   "version": "1.0.0",
   "description": "creacion de api libros",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "node --watch src/app.js"
   },
   "keywords": [
     "node",
@@ -20,6 +20,7 @@
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "eslint": "^8.57.1",
+    "standard": "^17.1.2"
   }
 }
