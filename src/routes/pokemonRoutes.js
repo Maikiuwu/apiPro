@@ -5,6 +5,6 @@ const router = Router()
 
 router.get('/generatePokemon', generatePokemon)
 router.get('/guess/:name', guessPokemon)
-router.get('/pokemon/intentos', listAttempts)
+router.get('/intentos', listAttempts)
 
 export default router

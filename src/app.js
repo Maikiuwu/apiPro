@@ -9,7 +9,7 @@ app.use(cors())
 app.use(bodyParser.json())
 
 // Montar rutas de Pokémon
-app.use('/', pokemonRoutes)
+app.use('/pokemon', pokemonRoutes)
 
 // Middleware para CORS
 app.use((req, res, next) => {
